@@ -1,0 +1,58 @@
+header {
+    background-image: url("https://mocah.org/uploads/posts/5372935-beach-shore-wave-surf-tide-wallpaper-hd-wallpapers-beach-wallpapers-hd-backgrounds-wallpapers-hd-wallpapers-amazing-wallpaper-pretty-backgrounds-beach-background-aerial-maldife-wafe-io-splash-.jpg");
+    height: 889px;
+    background-size: cover;
+    position: relative;
+}
+
+header::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(78, 78, 78, 0.377);
+}
+
+.banner {
+    position: relative;
+    text-align: center;
+    top: 300px;
+}
+
+.padding-bottom {
+    padding-bottom: 250px;
+}
+
+.brd {
+    width: 45px;
+    padding-top: 25px;
+}
+
+.carousel-item img {
+    height: 650px;
+}
+
+.carousel-item {
+    position: relative;
+}
+
+.carousel-item::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(29, 27, 51, 0.897);
+}
+
+.slideimage {
+    position: absolute;
+    padding-bottom: 235px;
+}
+
+.footerimg {
+    background-color: rgb(32, 55, 56);
+}
